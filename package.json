@@ -1,0 +1,37 @@
+{
+  "name": "adding_alexa_to_oda",
+  "version": "1.0.0",
+  "description": "Sample code to add Amazon Alexa as Oracle Digital Assistant Channel",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "start": "npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agonzalezsp/adding_alexa_to_oda.git"
+  },
+  "keywords": [
+    "ODA",
+    "Digital",
+    "Assistant",
+    "Voice",
+    "AlexaWebhook",
+    "OracleGroundBreakers."
+  ],
+  "author": "Arturo González",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/agonzalezsp/adding_alexa_to_oda/issues"
+  },
+  "homepage": "https://github.com/agonzalezsp/adding_alexa_to_oda#readme",
+  "dependencies": {
+    "@oracle/bots-node-sdk": "2.0.6",
+    "alexa-app": "^4.2.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pubsub-js": "^1.5.4",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3"
+  }
+}
